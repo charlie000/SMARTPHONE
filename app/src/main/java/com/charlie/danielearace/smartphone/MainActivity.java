@@ -13,7 +13,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         //jhjjlkmjmjj
         //Davide è coglione
-        //Fammi una pompa tu e Costanza
+        //Fammi una pompa tu e Costanza.
     }
 
     @Override
