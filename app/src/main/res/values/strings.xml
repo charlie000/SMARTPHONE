@@ -6,6 +6,8 @@
     <string name="txtUser">USER</string>
     <string name="txtPassword">PASSWORD</string>
     <string name="btnAccedi">ACCEDI</string>
+    <string name="btnRegistrazione">registrati</string>
+
     <string name="title_activity_registrazione">RegistrazioneActivity</string>
     <string name="txtSecondaPsw">2psw</string>
     <string name="txtEmail">E-mail</string>
