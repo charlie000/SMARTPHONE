@@ -4,13 +4,28 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class LoginActivity extends ActionBarActivity {
+    TextView u;
+    TextView p;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_main);
+        u =(TextView)findViewById(R.id.txt_user);
+        p =(TextView)findViewById(R.id.txt_psw);
+        Button b =(Button)findViewById(R.id.btn_accedi);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(LoginActivity.this,u.getText()+" "+p.getText(),Toast.LENGTH_LONG).show();
+            }
+        });
         //jhjjlkmjmjj
         //Davide è coglione
         //Fammi una pompa tu e Costanza.

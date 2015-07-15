@@ -9,29 +9,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="@string/txtUser"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/txt_user"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="182dp" />
+        android:layout_marginTop="182dp"
+        android:hint="@string/txtUser" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText2"
+        android:id="@+id/txt_psw"
         android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/editText"
-        android:text="@string/txtPassword" />
+        android:layout_alignStart="@+id/txt_user"
+        android:hint="@string/txtPassword" />
 
-    <EditText
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnAccedi"
-        android:id="@+id/button"
-        android:layout_marginTop="73dp"
-        android:layout_below="@+id/editText2"
+        android:id="@+id/btn_accedi"
+        android:layout_below="@+id/txt_psw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginTop="75dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
