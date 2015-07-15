@@ -1,42 +1,23 @@
 package com.charlie.danielearace.smartphone;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
 
-public class LoginActivity extends ActionBarActivity {
-    TextView u;
-    TextView p;
+public class RegistrazioneActivity extends ActionBarActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_main);
-        u =(TextView)findViewById(R.id.txt_user);
-        p =(TextView)findViewById(R.id.txt_psw);
-        Button b =(Button)findViewById(R.id.btn_accedi);
-        Button reg=(Button)findViewById(R.id.but_reg);
-        reg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this,RegistrazioneActivity.class));
-            }
-        });
-        //jhjjlkmjmjj
-        //Davide è coglione
-        //Fammi una pompa tu e Costanza.
+        setContentView(R.layout.activity_registrazione);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_registrazione, menu);
         return true;
     }
 
