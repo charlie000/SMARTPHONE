@@ -64,7 +64,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/txtRegistrati"
+        android:text="@string/btnRegSend"
         android:id="@+id/but_reg"
         android:layout_below="@+id/txt_psw_reg"
         android:layout_centerHorizontal="true"

@@ -17,7 +17,7 @@ public class LoginActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_main);
+        setContentView(R.layout.activity_login);
         u =(TextView)findViewById(R.id.txt_user);
         p =(TextView)findViewById(R.id.txt_psw);
         Button b =(Button)findViewById(R.id.btn_accedi);
@@ -28,9 +28,7 @@ public class LoginActivity extends ActionBarActivity {
                 startActivity(new Intent(LoginActivity.this,RegistrazioneActivity.class));
             }
         });
-        //jhjjlkmjmjj
-        //Davide è coglione
-        //Fammi una pompa tu e Costanza.
+
     }
 
     @Override
