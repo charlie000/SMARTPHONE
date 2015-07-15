@@ -21,7 +21,7 @@ public class LoginActivity extends ActionBarActivity {
         u =(TextView)findViewById(R.id.txt_user);
         p =(TextView)findViewById(R.id.txt_psw);
         Button b =(Button)findViewById(R.id.btn_accedi);
-        Button reg=(Button)findViewById(R.id.but_reg);
+        Button reg=(Button)findViewById(R.id.btn_reg);
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
