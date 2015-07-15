@@ -23,9 +23,10 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/txt_numero_iscrizione"
-        android:hint="@string/txtNumeroIscrizione"
+        android:layout_marginTop="48dp"
         android:layout_below="@+id/txt_email"
-        android:layout_alignStart="@+id/txt_email" />
+        android:layout_alignStart="@+id/txt_email"
+        android:hint="@string/txtNumeroIscrizione" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -33,17 +34,18 @@
         android:inputType="date"
         android:ems="10"
         android:id="@+id/txt_anno_iscrizione"
-        android:hint="@string/txtAnnoIscrizione"
+        android:layout_marginTop="48dp"
         android:layout_below="@+id/txt_numero_iscrizione"
-        android:layout_alignStart="@+id/txt_numero_iscrizione" />
+        android:layout_alignStart="@+id/txt_numero_iscrizione"
+        android:hint="@string/txtAnnoIscrizione" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spn_provincia"
-        android:layout_below="@+id/txt_anno_iscrizione"
-        android:layout_alignEnd="@+id/txt_anno_iscrizione"
-        android:layout_alignStart="@+id/txt_anno_iscrizione" />
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/txt_anno_iscrizione"
+        android:layout_alignEnd="@+id/txt_anno_iscrizione" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -51,9 +53,10 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/txt_psw_reg"
-        android:hint="@string/txtPassword"
+        android:layout_marginTop="46dp"
         android:layout_below="@+id/spn_provincia"
-        android:layout_alignStart="@+id/spn_provincia" />
+        android:layout_alignStart="@+id/spn_provincia"
+        android:hint="@string/txtSecondaPsw" />
 
     <Button
         android:layout_width="wrap_content"
