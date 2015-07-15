@@ -31,9 +31,9 @@
         android:layout_height="wrap_content"
         android:text="@string/btnAccedi"
         android:id="@+id/btn_accedi"
+        android:layout_marginTop="48dp"
         android:layout_below="@+id/txt_psw"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="84dp" />
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -43,5 +43,14 @@
         android:src="@mipmap/ic_launcher"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btmRegistrazione"
+        android:id="@+id/button"
+        android:layout_below="@+id/btn_accedi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
 
 </RelativeLayout>
