@@ -6,14 +6,14 @@
     <string name="txtUser">USER</string>
     <string name="txtPassword">PASSWORD</string>
     <string name="btnAccedi">ACCEDI</string>
-    <string name="btnRegLog">registrati</string>
-    <string name="btnRegSend">invia</string>
+    <string name="btnRegLog">REGISTRATI</string>
+    <string name="btnRegSend">INVIA</string>
 
 
     <string name="title_activity_registrazione">RegistrazioneActivity</string>
-    <string name="txtSecondaPsw">2psw</string>
+    <string name="txtSecondaPsw">PASSWORD</string>
     <string name="txtEmail">E-mail</string>
-    <string name="txtNumeroIscrizione">Numero Iscrizione</string>
-    <string name="txtAnnoIscrizione">Anno Iscrizione</string>
-    <string name="txtRegistrati">Registrati</string>
+    <string name="txtNumeroIscrizione">NUMERO ISCRIZIONE</string>
+    <string name="txtAnnoIscrizione">ANNO ISCRIZIONE</string>
+    <string name="txtRegistrati">REGISTRATI</string>
 </resources>
