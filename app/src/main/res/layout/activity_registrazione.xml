@@ -13,7 +13,6 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/txt_email"
-        android:text="@string/txtEmail"
         android:hint="@string/txtEmail"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -24,11 +23,9 @@
         android:inputType="number"
         android:ems="10"
         android:id="@+id/txt_numero_iscrizione"
-        android:text="@string/txtNumeroIscrizione"
-        android:layout_marginTop="48dp"
+        android:hint="@string/txtNumeroIscrizione"
         android:layout_below="@+id/txt_email"
-        android:layout_alignStart="@+id/txt_email"
-        android:hint="@string/txtNumeroIscrizione" />
+        android:layout_alignStart="@+id/txt_email" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -36,19 +33,17 @@
         android:inputType="date"
         android:ems="10"
         android:id="@+id/txt_anno_iscrizione"
-        android:layout_marginTop="48dp"
+        android:hint="@string/txtAnnoIscrizione"
         android:layout_below="@+id/txt_numero_iscrizione"
-        android:layout_alignStart="@+id/txt_numero_iscrizione"
-        android:text="@string/txtAnnoIscrizione"
-        android:hint="@string/txtAnnoIscrizione" />
+        android:layout_alignStart="@+id/txt_numero_iscrizione" />
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/spn_provincia"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/txt_anno_iscrizione"
-        android:layout_alignEnd="@+id/txt_anno_iscrizione" />
+        android:layout_below="@+id/txt_anno_iscrizione"
+        android:layout_alignEnd="@+id/txt_anno_iscrizione"
+        android:layout_alignStart="@+id/txt_anno_iscrizione" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -56,8 +51,7 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/txt_psw_reg"
-        android:layout_marginTop="46dp"
-        android:text="@string/txtPassword"
+        android:hint="@string/txtPassword"
         android:layout_below="@+id/spn_provincia"
         android:layout_alignStart="@+id/spn_provincia" />
 
